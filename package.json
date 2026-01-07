@@ -1,0 +1,23 @@
+{
+  "name": "js1k-stealth-bomber",
+  "version": "1.0.0",
+  "description": "JS1k entry",
+  "private": true,
+  "author": {
+    "name" : "Eugeny Lapin",
+    "email" : "kolduras@gmail.com"
+  },
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/kolduras/stealth-2019.git"
+  },
+  "scripts": {
+    "build": "tools/build.sh src/stealth.js stealth-build",
+    "postinstall": "npm run build",
+    "start": "open stealth-build/stealth.html"
+  },
+  "dependencies": {
+    "regpack": "4.0.1"
+  }
+}
