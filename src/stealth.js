@@ -106,7 +106,7 @@ with(g){
     for(U in Q=`PLR`)eet(git(P,Q[U]),vto(git(P,Q[U]),3,F,0,36,U*12));
     // Change flight direction
     onmousemove=U=>T=U.clientX/dBW-.5;
-     // Lunch the missile
+     // Launch the missile
     onmouseup=U=>{O=1,E=A,f=B};
     // Create the city - random map of heights
     cl(0,0,0,Q=Array.from(Array(16),U=>Array.from(Array(16),Math.random)));
